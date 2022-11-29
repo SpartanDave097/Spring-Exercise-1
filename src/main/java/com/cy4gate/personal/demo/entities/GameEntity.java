@@ -18,11 +18,10 @@ import java.util.Date;
 @AllArgsConstructor
 public class GameEntity {
 
-    @Id @GeneratedValue(strategy= GenerationType.IDENTITY)
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String nome;
     private String genere;
-    private Date uscita;
     private int rating;
 }

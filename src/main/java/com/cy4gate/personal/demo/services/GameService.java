@@ -6,9 +6,11 @@ import java.util.List;
 
 public interface GameService {
 
-     GameDTO getGameById();
+     GameDTO getGameById(Long id);
 
      List<GameDTO> getGames();
 
-    List<GameDTO> getGamesByGenre();
+     List<GameDTO> getGamesByGenere(String genere);
+
+     //List<GameDTO> getGamesByGenre(String genere);
 }
